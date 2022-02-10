@@ -1,5 +1,5 @@
 document.getElementById("login-submit").addEventListener('click', function () {
-    // get user email
+    // get user email 
     const emailField = document.getElementById('user-email');
     const userEmail = emailField.value
     // get password
