@@ -15,4 +15,8 @@ document.querySelector('#player, .player:first-child').style.color = "red"
 
 // document.querySelectorAll('#players, .player').style.color = "red"
 
-secondTitle2.setAttribut('title', 'I added a tooltip')
+const secondTitle2 = document.getElementById('title')
+secondTitle2.setAttribute('title', 'I added a tooltip')
+secondTitle2.parentNode.parentNode
+
+secondTitle2.childNodes
